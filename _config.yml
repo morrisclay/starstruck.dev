@@ -29,6 +29,8 @@ twitter:
 logo: "path/to/image"
 
 
+baseurl: "/futureof.dev"
+
 collections_dir: collections
 collections:
   posts:
