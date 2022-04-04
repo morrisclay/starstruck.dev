@@ -39,7 +39,7 @@ collections:
 paginate: 2
 paginate_path: "/page:num/"
 
-site.url: https://futureof.dev
+site.url: "https://futureof.dev/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
