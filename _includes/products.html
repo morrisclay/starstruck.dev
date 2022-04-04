@@ -8,14 +8,12 @@
                 </div>
               </div>
         <div class="bg-gray-800 mt-10 shadow overflow-hidden rounded-md">
-
-
               
             <ul role="list" class="divide-y divide-gray-900">
         
                 {% for product in site.products %}
                 <li class="py-4">
-                    <a href={{product.url}} target="_blank"> 
+                    <a href={{product.url}}> 
                         <p class="text-xs font-light text-right text-gray-600 mr-4">{{ product.date | timeago }}</p>
                         <div class="flex space-x-4">
                     <div class="flex-shrink-0 pl-5">
@@ -24,8 +22,8 @@
 
                       <div class="flex-1 min-w-0">
                         <p class="text-md font-medium text-gray-200 truncate">{{product.name}}</p>
-                        <p class="line-clamp-3 text-sm text-gray-100">{{product.description}}</p>
-                        <p class="text-sm text-right mx-4 text-gray-100 truncate">
+                        <p class="text-sm text-gray-100 pr-4 line-clamp-2">{{product.description}}</p>
+                        <p class="text-sm mt-2 text-right mx-4 text-gray-100 truncate">
                             {% for tag in product.tags %}
                             <span class="px-2 font-medium text-xs leading-loose cursor-pointer" >                            #{{tag}}
                             </span>

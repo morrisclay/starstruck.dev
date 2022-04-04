@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/site.css">
   </head>
   <body class="bg-gray-900 p-10">
+    {% include nav.html %}
     {% include header.html %}
     {% include newsletter.html %}
 
@@ -15,6 +16,7 @@
     {% if jekyll.environment == 'production' %}
       {% include analytics.html %}
     {% endif %}
+    {% include footer.html %}
   </body>
 </html>
 
