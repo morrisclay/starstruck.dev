@@ -13,7 +13,7 @@
         
                 {% for product in site.products %}
                 <li class="py-4">
-                    <a href={{product.url}}> 
+                    <a href={{basel.url}}{{product.url}}> 
                         <p class="text-xs font-light text-right text-gray-600 mr-4">{{ product.date | timeago }}</p>
                         <div class="flex space-x-4">
                     <div class="flex-shrink-0 pl-5">
