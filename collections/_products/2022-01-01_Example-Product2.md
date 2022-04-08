@@ -2,6 +2,7 @@
 name: "Supabase"
 external_url: "https://supabase.com"
 tags: ['database', 'firebase', 'realtime']
+stage: beta
 image: "https://res.cloudinary.com/practicaldev/image/fetch/s---1zZlXx3--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/1968/c0dbe341-1d94-4192-a93b-921519678894.png"
 description: "Supabase is an open source Firebase alternative.
 It provides all the backend services you need to build a product. "
