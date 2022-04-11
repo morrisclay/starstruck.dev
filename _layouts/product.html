@@ -5,16 +5,26 @@
   <meta charset="utf-8">
   {% feed_meta %}
   {% seo %}
-  <link rel="stylesheet" href="/css/site.css">
+  <!-- <link rel="stylesheet" href="/css/site.css"> -->
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 
-<body class="bg-gray-900 p-10">
+<body class="bg-white p-10">
+  <script>
+    const jsConfetti = new JSConfetti()
+    jsConfetti.addConfetti({
+      emojis: ['🤩'],
+    })
+  </script>
   {% include nav.html %}
-
   <div class="lg:grid lg:grid-cols-12 lg:gap-8 mt-8">
     <div class="md:max-w-2xl md:mx-auto lg:col-span-12 lg:text-left ">
-      <div class="bg-gray-800 shadow overflow-hidden sm:rounded-lg">
+      <div class="bg-white shadow overflow-hidden sm:rounded-lg">
         <a target="_blank" href={{page.external_url}}>
           <div class="flex-shrink-0 pl-5">
             <img class="h-12 w-12 mt-5 rounded-full" src={{page.image}} alt="">
@@ -28,11 +38,11 @@
         </a>
         <div class="border-t border-gray-900">
           <dl>
-            <div class="bg-gray-800 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+            <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
               <dt class="text-sm font-medium text-gray-500">Description</dt>
               <dd class="mt-1 text-sm text-gray-200 sm:mt-0 sm:col-span-2">{{page.description}}</dd>
             </div>
-            <div class="bg-gray-800 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+            <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
               <dt class="text-sm font-medium text-gray-500">Tags</dt>
               <dd class="mt-1 text-sm text-gray-200 sm:mt-0 sm:col-span-2">
                 <p class="text-sm text-right mx-4 text-gray-100 truncate">

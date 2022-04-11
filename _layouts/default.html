@@ -1,23 +1,38 @@
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    {% feed_meta %}
-    {% seo %}
-    <link rel="stylesheet" href="/css/site.css">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-  </head>
-  <body class="bg-gray-900 p-10">
-    {% include nav.html %}
-    {% include header.html %}
-    {% include newsletter.html %}
 
-    {% include products.html %}
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  {% feed_meta %}
+  {% seo %}
+  <!-- <link rel="stylesheet" href="/css/site.css"> -->
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/@lyket/widget@latest/dist/lyket.js?apiKey=pt_a9718467ab684ab214206fa32ccd97"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
 
-    {% if jekyll.environment == 'production' %}
-      {% include analytics.html %}
-    {% endif %}
-    {% include footer.html %}
-  </body>
+<body class="bg-white p-10">
+  <script>
+    const jsConfetti = new JSConfetti()
+    jsConfetti.addConfetti({
+      emojis: ['🤩'],
+    })
+  </script>
+
+  {% include nav.html %}
+  {% include header.html %}
+  {% include newsletter.html %}
+
+  {% include products.html %}
+
+  {% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+  {% include footer.html %}
+</body>
+
 </html>
-

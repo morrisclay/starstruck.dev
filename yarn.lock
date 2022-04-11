@@ -65,6 +65,13 @@ ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
+applause-button@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/applause-button/-/applause-button-3.4.0.tgz#6f7e6d12a0660f358663eb999c14e7b79d3c4e5c"
+  integrity sha512-jYx7jSqITBXLQijuQ5aEoxb+PbjD8xCHgjvfWrvFFk/MtM8/DBT7gPHk0wTQPD7+IMwwZLw/9hMK/i5vX5kWEw==
+  dependencies:
+    document-register-element "^1.8.1"
+
 argparse@^1.0.7:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
@@ -411,6 +418,11 @@ detective@^5.2.0:
     acorn-node "^1.6.1"
     defined "^1.0.0"
     minimist "^1.1.1"
+
+document-register-element@^1.8.1:
+  version "1.14.10"
+  resolved "https://registry.yarnpkg.com/document-register-element/-/document-register-element-1.14.10.tgz#a7bd025e6b73bd827fec2d8e90aba755e99387f5"
+  integrity sha512-w5UA37hEIrs+9pruo2yR5UD13c4UHDlkqqjt4qurnp7QsBI9b1IOi8WXUim+aCqKBsENX3Z/cso7XMOuwJH1Yw==
 
 dom-serializer@0:
   version "0.2.2"

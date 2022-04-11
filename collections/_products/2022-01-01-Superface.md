@@ -1,5 +1,6 @@
 ---
 name: "Superface"
+permalink: Superface
 external_url: "https://superface.ai"
 tags: ['api', 'dsl', 'integrations']
 stage: vaporware
