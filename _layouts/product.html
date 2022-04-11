@@ -24,28 +24,28 @@
   {% include nav.html %}
   <div class="lg:grid lg:grid-cols-12 lg:gap-8 mt-8">
     <div class="md:max-w-2xl md:mx-auto lg:col-span-12 lg:text-left ">
-      <div class="bg-white shadow overflow-hidden sm:rounded-lg">
+      <div class="bg-white border-gray-900 shadow overflow-hidden sm:rounded-lg">
         <a target="_blank" href={{page.external_url}}>
           <div class="flex-shrink-0 pl-5">
             <img class="h-12 w-12 mt-5 rounded-full" src={{page.image}} alt="">
           </div>
           <div class="px-4 py-5 sm:px-6">
 
-            <h3 class="text-lg leading-6 font-medium text-gray-200">{{page.name}}</h3>
-            <p class="mt-1 max-w-2xl text-sm text-gray-500">{{page.external_url}}</p>
+            <h3 class="text-lg leading-6 font-medium text-black-200">{{page.name}}</h3>
+            <p class="mt-1 max-w-2xl text-sm text-gray-900">{{page.external_url}}</p>
 
           </div>
         </a>
         <div class="border-t border-gray-900">
           <dl>
             <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-              <dt class="text-sm font-medium text-gray-500">Description</dt>
+              <dt class="text-sm font-medium text-gray-900">Description</dt>
               <dd class="mt-1 text-sm text-gray-200 sm:mt-0 sm:col-span-2">{{page.description}}</dd>
             </div>
             <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-              <dt class="text-sm font-medium text-gray-500">Tags</dt>
+              <dt class="text-sm font-medium text-gray-900">Tags</dt>
               <dd class="mt-1 text-sm text-gray-200 sm:mt-0 sm:col-span-2">
-                <p class="text-sm text-right mx-4 text-gray-100 truncate">
+                <p class="text-sm text-right mx-4 text-gray-800 truncate">
                   {% for tag in page.tags %}
                   <span class="px-2 font-medium text-xs leading-loose cursor-pointer"> #{{tag}}
                   </span>
