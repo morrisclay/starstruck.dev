@@ -1,7 +1,9 @@
 ---
 name: "Superface"
 permalink: Superface
+published: false
 external_url: "https://superface.ai"
+tagline: 'A framework for API integrations'
 tags: ['api', 'dsl', 'integrations']
 stage: vaporware
 image: "https://avatars.githubusercontent.com/u/57067369?s=200&v=4"

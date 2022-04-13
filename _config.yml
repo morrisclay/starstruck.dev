@@ -21,7 +21,7 @@ plugins:
 # jekyll-seo-tag configuration
 author: "Morris Clay"
 url: "starstruck.dev"
-title: "Starstruck.dev- the best developer tools daily."
+title: "Starstruck.dev - the best developer tools daily."
 description: ""
 twitter:
   username: "starstruckdev"
@@ -40,6 +40,7 @@ paginate_path: "/page:num/"
 
 site.url: "starstruck.dev"
 baseurl: "/starstruck.dev"
+future: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
