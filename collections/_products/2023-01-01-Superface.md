@@ -1,7 +1,7 @@
 ---
 name: "Superface"
 permalink: Superface
-published: false
+published: true
 external_url: "https://superface.ai"
 tagline: 'A framework for API integrations'
 tags: ['api', 'dsl', 'integrations']
