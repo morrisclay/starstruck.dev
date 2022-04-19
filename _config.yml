@@ -21,12 +21,12 @@ plugins:
 # jekyll-seo-tag configuration
 author: "Morris Clay"
 url: "starstruck.dev"
-title: "Starstruck.dev - the best developer tools daily."
-description: ""
+title: "Starstruck.dev"
+description: "Stay up to date with the best developer tools, daily."
 twitter:
-  username: "starstruckdev"
+  username: "_starstruckdev"
   card: ""
-logo: "path/to/image"
+logo: "apple-touch-icon.png"
 
 collections_dir: collections
 collections:
@@ -39,7 +39,7 @@ paginate: 2
 paginate_path: "/page:num/"
 
 site.url: "starstruck.dev"
-baseurl: "/starstruck.dev"
+baseurl: "/"
 future: false
 
 # Exclude from processing.

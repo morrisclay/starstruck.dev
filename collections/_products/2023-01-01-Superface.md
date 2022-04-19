@@ -1,5 +1,6 @@
 ---
 name: "Superface"
+title: Superface
 permalink: Superface
 published: true
 external_url: "https://superface.ai"
