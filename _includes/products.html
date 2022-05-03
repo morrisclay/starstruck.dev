@@ -40,7 +40,7 @@
                   <p class="text-md font-medium text-black truncate">{{product.name}}</p>
                   <p class="text-sm text-gray-800 pr-4 line-clamp-2">{{product.tagline}}</p>
                 </a>
-                <p class="text-sm mb-2 text-left text-gray-100 truncate">
+                <!-- <p class="text-sm mb-2 text-left text-gray-100 truncate">
                   {% if product.stage == "vaporware" %}
                   <span
                     class="inline-flex items-center mt-2 px-2 py-0.5 rounded-full  text-xs font-medium leading-5 bg-red-100 text-red-800">Vaporware</span>
@@ -51,10 +51,10 @@
                   <span
                     class="inline-flex items-center mt-2 px-2 py-0.5 rounded-full text-xs font-medium leading-5 bg-green-100 text-green-800">Stable</span>
                   {% else %}
-                  <!-- <span class="inline-flex items-center mt-2 px-2 py-0.5 rounded-full text-xs font-medium leading-5 bg-green-100 text-green-800">Unknown</span> -->
+                  <span class="inline-flex items-center mt-2 px-2 py-0.5 rounded-full text-xs font-medium leading-5 bg-green-100 text-green-800">Unknown</span>
                   {% endif %}
-                </p>
-                <p class="text-sm mt-2 text-right mx-4 text-gray-600 truncate">
+                </p> -->
+                <p class="text-sm mt-8 text-right mx-4 text-gray-600 truncate">
                   {% for tag in product.tags %}
                   <span class="px-2 font-medium text-xs leading-loose cursor-pointer"> #{{tag}}
                   </span>

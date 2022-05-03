@@ -22,9 +22,9 @@ plugins:
 author: "Morris Clay"
 url: "starstruck.dev"
 title: "Starstruck.dev"
-description: "Stay up to date with the best developer tools, daily."
+description: "Stay up to date with the best developer tools."
 twitter:
-  username: "_starstruckdev"
+  username: "morrisclay"
   card: ""
 logo: "apple-touch-icon.png"
 
