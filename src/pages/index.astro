@@ -1,0 +1,26 @@
+---
+import Nav from '../components/nav.astro';
+import Hero from '../components/hero.astro';
+import Newsletter from '../components/newsletter.astro';
+import Products from '../components/products.astro';
+import Footer from '../components/footer.astro';
+
+let title = 'Starstruck.dev - Stay up to date with the best developer tools.';
+---
+
+    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+<body id='bd' class="bg-white p-10">
+<Nav />
+<Hero />
+<Newsletter />
+<Products />
+<Footer />
+</body>
+</html>

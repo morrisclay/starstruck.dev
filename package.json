@@ -1,14 +1,25 @@
 {
+  "name": "@example/minimal",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^4.0.0",
-    "autoprefixer": "^9.7.6",
-    "cssnano": "^4.1.10",
-    "postcss": "^8.2.4",
-    "postcss-import": "^12.0.1",
-    "tailwindcss": "^1.4.0"
+    "@astrojs/react": "^0.1.1",
+    "@astrojs/renderer-react": "^0.5.0",
+    "@astrojs/tailwind": "^0.2.1",
+    "@astrojs/vercel": "^0.1.4",
+    "astro": "^1.0.0-beta.18",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   },
   "dependencies": {
-    "@tailwindcss/line-clamp": "^0.3.1",
-    "applause-button": "^3.4.0"
+    "airtable": "^0.11.3",
+    "js-confetti": "^0.10.2",
+    "react-chartjs-2": "^4.1.0"
   }
 }
