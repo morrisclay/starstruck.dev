@@ -1,7 +1,7 @@
 ---
 name: Add a Developer Tool
 about: Request to add a Developer Tool to starstruck.dev
-title: ''
+title: 'Add a Developer Tool'
 labels: ''
 assignees: morrisclay
 
