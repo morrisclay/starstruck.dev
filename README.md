@@ -1,43 +1,7 @@
-# Astro Starter Kit: Minimal
+# 🤩 Starstruck.dev
+## Stay up to date with the latest and greatest developer tools
 
-```
-npm init astro -- --template minimal
-```
+Hi fellow stargazer! I’m Morris - a dev who is 🤩 about every new developer tool out there. In my job as Chief Engineer at a super early stage deep tech VC I see a lot of new cutting edge developer tools. **In this repository I want to share some of my highlights with you!**
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command           | Action                                       |
-|:----------------  |:-------------------------------------------- |
-| `npm install`     | Installs dependencies                        |
-| `npm run dev`     | Starts local dev server at `localhost:3000`  |
-| `npm run build`   | Build your production site to `./dist/`      |
-| `npm run preview` | Preview your build locally, before deploying |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://github.com/withastro/astro) or jump into our [Discord server](https://astro.build/chat).
+-> [Submit a tool](https://github.com/morrisclay/starstruck.dev/issues/new/choose) to be featured on starstruck.dev 
+-> Explore and discuss new dev tools on [GitHub](https://github.com/morrisclay/starstruck.dev/discussions)
